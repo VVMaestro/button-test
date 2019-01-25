@@ -1,0 +1,116 @@
+.button {
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border: none;
+    
+    outline: none;    
+    cursor: pointer;
+
+    &--first-color {
+        color: $dark;
+        background-color: $first-color;
+
+        &:hover {
+            background-color: $first-color-hover;
+        }
+
+        &:focus {
+            background-color: $first-color-hover;
+        }
+
+        &:active {
+            background-color:  $first-color-active;
+        }
+
+        &:disabled {
+            color: $font-disabled;
+            background-color: $color-disabled;
+            cursor: auto;
+        }        
+    }
+
+    &--second-color {
+        color: $light;
+        background-color: $second-color;
+
+        &:hover {
+            background-color: $second-color-hover;
+        }
+
+        &:focus {
+            background-color: $second-color-hover;
+        }
+
+        &:active {
+            background-color: $second-color-active;
+        }
+
+        &:disabled {
+            color: $font-disabled;
+            background-color: $color-disabled;
+            cursor: auto;
+        }
+    }
+
+    &--disabled {
+        color: $font-disabled;
+        background-color: $color-disabled;
+
+        cursor: auto;
+
+        &:hover {
+            background-color: $color-disabled;
+        }
+
+        &:focus {
+            background-color: $color-disabled;
+        }
+
+        &:active {
+            background-color: $color-disabled;
+        }
+    }
+
+    &--small {
+        width: $width-small;
+        height: $height-small;
+
+        font-size: $font-size-small;
+
+        border-radius: $height-small / 2;
+    }
+
+    &--normal {
+        width: $width-normal;
+        height: $height-normal;
+
+        font-size: $font-size-normal;
+
+        border-radius: $height-normal / 2;
+    }
+
+    &--medium {
+        width: $width-medium;
+        height: $height-medium;
+
+        font-size: $font-size-medium;
+
+        border-radius: $height-medium / 2;
+    }
+
+    &--large {
+        width: $width-large;
+        height: $height-large;
+
+        font-size: $font-size-large;
+
+        border-radius: $height-large / 2;
+    }
+}

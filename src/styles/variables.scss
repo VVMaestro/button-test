@@ -1,0 +1,37 @@
+// Colors
+$first-color: #6FAD2B;
+$first-color-hover: darken($first-color, 5%);
+$first-color-active: darken($first-color, 15%);
+$first-color-disabled: desaturate($first-color, 70%);
+
+$second-color: #640CAB;
+$second-color-hover: darken($second-color, 5%);
+$second-color-active: darken($second-color, 15%);
+$second-color-disabled: desaturate($second-color, 70%);
+
+$dark: #222222;
+$light: #dddddd;
+
+$color-disabled: #BBBBBB;
+$font-disabled: #777777;
+
+// Sizes:
+//Small
+$width-small: 60px;
+$height-small: $width-small / 3;
+$font-size-small: $width-small / 6;
+
+//Normal
+$width-normal: 90px;
+$height-normal: $width-normal / 3;
+$font-size-normal: $width-normal / 6;
+
+//Medium
+$width-medium: 150px;
+$height-medium: $width-medium / 3;
+$font-size-medium: $width-medium / 6;
+
+//Large
+$width-large: 210px;
+$height-large: $width-large / 3;
+$font-size-large: $width-large / 6;
